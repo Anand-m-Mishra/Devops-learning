@@ -1,0 +1,3 @@
+An array can hold serveral values under one name.
+Naming convection is same as variable.
+

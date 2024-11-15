@@ -1,0 +1,4 @@
+Use pwd to identify our current location in the file system.
+Understand the concept of absolute paths.
+Use pwd in conjunction with other commands like ls.
+Explore the -L and -P options of the pwd command and understand their differences when dealing with symbolic links.

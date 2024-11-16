@@ -1,0 +1,56 @@
+Summary: Symbolic Link in Linux
+
+1. Definition:
+   - A symbolic link (symlink or soft link) is a special type of file pointing to another file or directory, similar to shortcuts in Windows.
+
+2. Purpose:
+   - Provides a convenient way to access files or directories, especially for complex paths.
+   - Heavily used in library linking and organizing files.
+
+3. Characteristics:
+   - Created with `ln -s target_file link_name`.
+   - Identified by `l` at the start of the file attributes when listed with `ls -l`.
+   - Changes to the symlink affect the target file.
+   - Can point to non-existent files or directories without error.
+
+4. Commands:
+   - **Create**: `ln -s target_file link_name`
+   - **View Target**: `realpath link_name`
+   - **Delete**: `rm link_name` or `unlink link_name`
+   - **List Symlinks**: `find . -type l`
+
+5. Permissions:
+   - Always shows `777` (rwxrwxrwx) for the link, but actual permissions depend on the target file.
+
+6. Limitations:
+   - Broken links occur when the target file is deleted or moved.
+   - Symlinks can point to another symlink (chained links), which is discouraged for clarity.
+
+7. Example Usage:
+   - **Create a symlink**:
+     ```bash
+     ln -s /path/to/target_file my_link
+     ```
+   - **List symlinks with attributes**:
+     ```bash
+     ls -l my_link
+     # Output:
+     # lrwxrwxrwx 1 user user 23 Jul 2 08:51 my_link -> /path/to/target_file
+     ```
+   - **Modify a target file via symlink**:
+     ```bash
+     touch my_link  # Updates the target file's timestamp
+     ```
+   - **Follow a symlink to its target**:
+     ```bash
+     realpath my_link
+     ```
+   - **Delete a symlink**:
+     ```bash
+     rm my_link
+     ```
+
+8. Key Notes:
+   - Symlinks have `777` permissions but rely on the target file's permissions for access.
+   - Can be created for non-existent targets but will error when accessed.
+   - Avoid chaining symlinks to reduce confusion.

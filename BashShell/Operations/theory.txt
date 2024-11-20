@@ -1,0 +1,3 @@
+Arithmetic Operators
+
+Simple arithmetics on variables can be done using the arithmetic expression: $((expression)).

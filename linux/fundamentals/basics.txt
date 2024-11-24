@@ -1,0 +1,22 @@
+What is Linux?
+Linux is an open-source operating system based on the Unix architecture. It is free to use and allows anyone to view, modify, and distribute its source code, fostering a collaborative development environment.
+
+How are Linux and Unix Related?
+Unix: A commercialized, proprietary operating system that often requires licensing fees.
+Linux: A free and open-source alternative to Unix, distributed under the GNU General Public License (GPL).
+What is a Kernel?
+The kernel is the core component of an operating system, acting as an intermediary between hardware and software. It manages system resources such as CPU, memory, and I/O devices, providing essential services for other parts of the operating system.
+
+What is a Bootloader?
+A bootloader is a small program that loads the operating system kernel into memory and prepares it for execution. In Linux, the most commonly used bootloader is GRUB (Grand Unified Bootloader), which supports multiple operating systems and allows users to select which one to boot.
+
+States of Processes in Linux
+A process in Linux can be in one of several states:
+
+Running (R): The process is currently being executed by the CPU.
+Sleeping (S): The process is waiting for an event (e.g., I/O completion). Can be:
+Interruptible Sleep: Can be woken up by signals.
+Uninterruptible Sleep: Cannot be woken up until the event occurs.
+Stopped (T): The process has been stopped, usually by a signal.
+Zombie (Z): The process has completed execution but has not been cleaned up by its parent process.
+Idle: The process is not doing any work and is waiting for a task.

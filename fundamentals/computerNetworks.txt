@@ -1,0 +1,18 @@
+1.Subnetting
+- Subnet Mask: Divides IP into network and host parts (e.g., /24 means 255.255.255.0).
+- Formula: 2^(32 - subnet bits) = Number of IPs.
+
+2. DNS (Domain Name System)
+- Converts domain names (e.g., www.example.com) into IPs.
+- DNS Records: A, AAAA, CNAME, MX, TXT.
+
+3. DHCP (Dynamic Host Configuration Protocol)
+- Automatically assigns IP addresses to devices in a network.
+
+4. HTTP/HTTPS
+- HTTP: Unsecured, plain text.
+- HTTPS: Encrypted, secure via TLS/SSL.
+
+5. Ports and Protocols
+- Common Ports: 22 (SSH), 80 (HTTP), 443 (HTTPS), 53 (DNS), 25 (SMTP), 3306 (MySQL).
+- TCP vs. UDP: TCP (reliable), UDP (fast, no guarantee).

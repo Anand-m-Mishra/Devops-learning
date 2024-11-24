@@ -27,3 +27,45 @@ Use pwd to identify our current location in the file system.
 Understand the concept of absolute paths.
 Use pwd in conjunction with other commands like ls.
 Explore the -L and -P options of the pwd command and understand their differences when dealing with symbolic links.
+
+touch command: Create a new empty file.
+# Unix/Linux Commands for Text File Management
+
+## 1. touch Command
+- Create a new empty file or update the timestamp of an existing file.
+
+## 2. cd Command
+- Change the current working directory.
+
+## 3. rm Command
+- Remove files or directories.
+
+## 4. rmdir Command
+- Remove empty directories.
+
+## 5. cat Command
+- Concatenate and display the content of files.
+
+## 6. zcat Command
+- Display the contents of compressed files (usually .gz).
+
+## 7. echo Command
+- Display a line of text or a variable value.
+
+## 8. head Command
+- Display the first few lines of a file.
+
+## 9. tail Command
+- Display the last few lines of a file.
+
+## 10. tail with -f Flag
+- Continuously monitor the end of a file for new lines (useful for log files).
+
+## 11. less and more Command
+- View file contents one screen at a time; less allows backward navigation.
+
+## 12. cp Command
+- Copy files or directories.
+
+## 13. mv Command
+- Move or rename files or directories.

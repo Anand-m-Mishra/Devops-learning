@@ -69,3 +69,49 @@ touch command: Create a new empty file.
 
 ## 13. mv Command
 - Move or rename files or directories.
+
+# 14. tee Command
+# The tee command reads from standard input and writes to standard output and one or more files simultaneously.
+
+# Usage:
+command | tee filename
+
+# Example:
+echo "Hello, World!" | tee output.txt
+
+
+# 15. diff Command
+# The diff command compares two files line by line and outputs the differences between them.
+
+# Usage:
+diff file1.txt file2.txt
+
+# Example:
+diff old_version.txt new_version.txt
+
+
+# Advanced Commands
+
+# top
+# The top command provides a dynamic, real-time view of the system's processes.
+top
+
+# ps
+# The ps command displays information about the currently running processes.
+ps aux
+
+# fuser
+# The fuser command identifies processes using files or sockets.
+# Usage:
+fuser filename
+
+# Example:
+fuser /path/to/file
+
+# nohup
+# The nohup command allows a command to continue running in the background even after the user has logged out.
+# Usage:
+nohup command &
+
+# Example:
+nohup ./long_running_script.sh &

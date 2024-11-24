@@ -22,3 +22,8 @@ remember these key points:
 3.The terminal might seem intimidating at first, but it's an incredibly powerful tool that gives you precise control over your system.
 4.Linux is case-sensitive. File.txt, file.txt, and FILE.txt are all different files in Linux.
 5.The concepts we've learned with ls (like options and arguments) apply to many other Linux commands as well.
+
+Use pwd to identify our current location in the file system.
+Understand the concept of absolute paths.
+Use pwd in conjunction with other commands like ls.
+Explore the -L and -P options of the pwd command and understand their differences when dealing with symbolic links.

@@ -1,0 +1,17 @@
+what is shell?
+Program that allows users to interact with the computer , typically through a terminal.
+
+What is shell Programming?
+writing and running of commands in a shell.
+
+what is shell script?
+A file containing a series of shell commands.
+
+
+->The script is given execute permission for execution , using "chmod+x" command.
+
+
+"Sha-Bang" line:
+The first line of a shell script is called the "shebang" line. It specifies the interpreter that should be used to run the script.
+
+syntax: #!/bin/bash , here , "#!" is ShaBang itself and "/bin/bash" defines the path of bash shell. 

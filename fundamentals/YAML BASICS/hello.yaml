@@ -1,0 +1,14 @@
+"apple":"i am a red fruit" #example of kkey value pair storage
+---  #separates documents
+#lists
+-apple
+-banana
+-mango
+-Apple # yaml is case sensitive
+---
+cities:
+ - new delhi
+ - mumbai
+ - bbsr
+
+... #document ends

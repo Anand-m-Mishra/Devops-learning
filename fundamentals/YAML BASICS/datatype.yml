@@ -1,0 +1,25 @@
+name: Anand 
+fruit: "apple"
+job: 'unemployed'
+
+#multi-line string
+bio: |
+hey i am a learner
+got a good life.
+
+#writing a single line in multi-lines
+message: >
+this will
+all be 
+in one line
+
+num: 545
+marks: 98.76
+booleanValue: No # n,N,False,FALSE same eay for yes true
+
+#spwcify a type
+zero: !!int 0
+positiveNum: !!int 45
+negativeNum: !!int -54
+binaryNum: !!int 0b11001
+
